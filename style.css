@@ -316,17 +316,18 @@ h6 a:hover { text-decoration: none }
 
 /***********************/
 
-#tabs {
+.tabs {
 	max-width: 500px;
 	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
-#tabs .tab-nav {
+.tabs .tab-nav {
 	list-style: none;
 	margin: 0;
 }
 
-#tabs .tab-nav li  {
+.tabs .tab-nav li  {
 	float: left;
 	padding: 5px 20px;
 	color: #fff;
@@ -336,11 +337,11 @@ h6 a:hover { text-decoration: none }
 	cursor: pointer;
 }
 
-#tabs .tab-nav li.active {
+.tabs .tab-nav li.active {
 	background-color: #0779a9cc;
 }
 
-#tabs .tab-content {
+.tabs .tab-content {
 	display: none;
 	background-color: #0facee;
 	padding: 20px 25px 15px;
@@ -348,11 +349,11 @@ h6 a:hover { text-decoration: none }
 	border-radius: 0 10px 0 0;
 }
 
-#tabs .tab-content h3 {
+.tabs .tab-content h3 {
 	color: #fff;
 }
 
-#tabs .tab-content.active {
+.tabs .tab-content.active {
 	display: block;
 	background-color: #0779a9cc;
 }
